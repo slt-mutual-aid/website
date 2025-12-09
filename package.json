@@ -1,0 +1,20 @@
+{
+  "name": "slt-mutual-aid",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.16.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "prettier": "^3.7.1",
+    "typescript": "^5.7.2"
+  }
+}
+
