@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Navigation from "../components/Navigation.astro";
+import meetingImage from "../images/meeting.jpeg";
+import connectImage from "../images/connect.svg";
 ---
 
 <BaseLayout title="South Lake Tahoe Mutual Aid">
@@ -10,11 +12,11 @@ import Navigation from "../components/Navigation.astro";
     <section>
       <h2>What is Mutual Aid?</h2>
       <img
-        src="/meeting.jpeg"
+        src={meetingImage.src}
         alt="Find out ways to plug into current projects or create new ones. Meetings are held the first Monday of every month at Unity at the Lake, 870 Emerald Bay Rd, South Lake Tahoe from 6 to 8 pm"
         class="section-image"
       />
-      <img src="/connect.svg" alt="SLT Mutual Aid Community Meeting flyer" class="section-image" />
+      <img src={connectImage.src} alt="SLT Mutual Aid Community Meeting flyer" class="section-image" />
       <p>
         Mutual aid is a form of solidarity-based support where community members
         come together to meet each other's needs. It's about neighbors helping
